@@ -1,0 +1,47 @@
+NavLink {
+    margin-left: 40px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    width: 1000px;
+    padding: 10px;
+
+}
+ul {
+    list-style : none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-left: 20px
+}
+
+.default-link {
+    Border-bottom: 2px solid transparent;
+}
+
+.active-link {
+    Border-bottom: 3px solid orchid;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.nav-button {
+    width: 100px;
+    heigth: 18px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
